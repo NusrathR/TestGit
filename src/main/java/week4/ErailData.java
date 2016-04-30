@@ -10,6 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -23,7 +24,12 @@ public static void main(String[] args) throws Exception {
 			//Maximise the window size
 			driver.manage().window().maximize();
 			//Get page URL
-			driver.get("http://erail.in/?T=MAS::BNCE");
+			driver.get("http://erail.in");
+			//Sending input for to and from stations
+			driver.findElement(By.id("txtStationFrom")).clear();
+			driver.findElement(By.id("txtStationFrom")).sendKeys("MAS",Keys.TAB);
+			driver.findElement(By.id("txtStationTo")).clear();
+			driver.findElement(By.id("txtStationTo")).sendKeys("BNCE", Keys.TAB);
 			//Creating Workbook
 			XSSFWorkbook workbook = new XSSFWorkbook();
 			//Creating Sheet

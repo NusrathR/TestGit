@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OpenTaps" parallel= "classes">
+  <test name="Test">
+    <classes>
+      <class name="opentaps.NewTest"/>
+      <class name="opentaps.Sample5"/>
+      <class name="opentaps.Sample4"/>
+      <class name="opentaps.EditLead"/>
+      <class name="opentaps.Sample3"/>
+      <class name="opentaps.MergeLead"/>
+      <class name="opentaps.Sample2"/>
+      <class name="opentaps.DeleteLead"/>
+      <class name="opentaps.Createlead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- OpenTaps -->

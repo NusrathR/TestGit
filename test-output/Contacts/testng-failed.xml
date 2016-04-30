@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Contacts]">
+  <test name="Test">
+    <classes>
+      <class name="contacts_testng.CreateContact"/>
+      <class name="contacts_testng.FindContact"/>
+      <class name="contacts_testng.DeleteContact"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="contacts_testng.FindContact">
+        <methods>
+          <include name="BrowserClose"/>
+          <include name="ClickCrmBtn"/>
+          <include name="LaunchAndLogin"/>
+          <include name="findContacts"/>
+        </methods>
+      </class> <!-- contacts_testng.FindContact -->
+      <class name="contacts_testng.DeleteContact">
+        <methods>
+          <include name="BrowserClose"/>
+          <include name="ClickCrmBtn"/>
+          <include name="contactDelete"/>
+          <include name="LaunchAndLogin"/>
+        </methods>
+      </class> <!-- contacts_testng.DeleteContact -->
+      <class name="contacts_testng.CreateContact">
+        <methods>
+          <include name="BrowserClose"/>
+          <include name="ClickCrmBtn"/>
+          <include name="contactCreate"/>
+          <include name="LaunchAndLogin"/>
+        </methods>
+      </class> <!-- contacts_testng.CreateContact -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Contacts] -->

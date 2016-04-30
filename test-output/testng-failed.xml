@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="sundaycw.Listener"/>
+  </listeners>
+  <groups>
+    <run>
+      <include name="Smoke"/>
+      <include name="Sanity"/>
+    </run>
+  </groups>
+  <test name="Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="sundaycw.MergeLead"/>
+      <class name="sundaycw.EditLead"/>
+      <class name="sundaycw.DeleteLead"/>
+      <class name="sundaycw.CreateLead"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="sundaycw.CreateContact"/>
+      <class name="sundaycw.EditContact"/>
+      <class name="sundaycw.DeleteContact"/>
+      <class name="sundaycw.MergeContact"/>
+    </classes>
+  </test> <!-- Test2 -->
+</suite> <!-- Failed suite [Suite] -->

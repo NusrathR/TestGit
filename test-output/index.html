@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Nusrath\Documents\Homework\SeleniumHW\opentapsday2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sundaycw.CreateContact" hash-for-method="doCreateContact">doCreateContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sundaycw.CreateLead" hash-for-method="doCreateLead(Username2, Password2, Company2, Firstname2, Lastname2)">doCreateLead(Username2, Password2, Company2, Firstname2, Lastname2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sundaycw.CreateLead" hash-for-method="doCreateLead(Username1, Comsddkscn1, Company1, Firstname1, Lastname1)">doCreateLead(Username1, Comsddkscn1, Company1, Firstname1, Lastname1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sundaycw.DeleteContact" hash-for-method="doDeleteContact">doDeleteContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sundaycw.DeleteLead" hash-for-method="doDeleteLead">doDeleteLead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sundaycw.EditContact" hash-for-method="doEditContact">doEditContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sundaycw.EditLead" hash-for-method="doEditLead">doEditLead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sundaycw.MergeContact" hash-for-method="doMergeContact">doMergeContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="sundaycw.MergeLead" hash-for-method="doMergeLead">doMergeLead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sundaycw.CreateLead</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doCreateLead(Username2, Password2, Company2, Firstname2, Lastname2)">
+                  </a> <!-- doCreateLead(Username2, Password2, Company2, Firstname2, Lastname2) -->
+                  <span class="method-name">doCreateLead</span>
+                  <span class="parameters">(Username2, Password2, Company2, Firstname2, Lastname2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doCreateLead(Username1, Comsddkscn1, Company1, Firstname1, Lastname1)">
+                  </a> <!-- doCreateLead(Username1, Comsddkscn1, Company1, Firstname1, Lastname1) -->
+                  <span class="method-name">doCreateLead</span>
+                  <span class="parameters">(Username1, Comsddkscn1, Company1, Firstname1, Lastname1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sundaycw.EditContact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doEditContact">
+                  </a> <!-- doEditContact -->
+                  <span class="method-name">doEditContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sundaycw.EditLead</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doEditLead">
+                  </a> <!-- doEditLead -->
+                  <span class="method-name">doEditLead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sundaycw.DeleteLead</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doDeleteLead">
+                  </a> <!-- doDeleteLead -->
+                  <span class="method-name">doDeleteLead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sundaycw.CreateContact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doCreateContact">
+                  </a> <!-- doCreateContact -->
+                  <span class="method-name">doCreateContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sundaycw.MergeContact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doMergeContact">
+                  </a> <!-- doMergeContact -->
+                  <span class="method-name">doMergeContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sundaycw.MergeLead</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doMergeLead">
+                  </a> <!-- doMergeLead -->
+                  <span class="method-name">doMergeLead</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sundaycw.DeleteContact</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doDeleteContact">
+                  </a> <!-- doDeleteContact -->
+                  <span class="method-name">doDeleteContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Nusrath\Documents\Homework\SeleniumHW\opentapsday2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;classes&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;sundaycw.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;Smoke&quot;/&gt;
+      &lt;include name=&quot;Sanity&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sundaycw.MergeLead&quot;/&gt;
+      &lt;class name=&quot;sundaycw.EditLead&quot;/&gt;
+      &lt;class name=&quot;sundaycw.DeleteLead&quot;/&gt;
+      &lt;class name=&quot;sundaycw.CreateLead&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test name=&quot;Test2&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sundaycw.CreateContact&quot;/&gt;
+      &lt;class name=&quot;sundaycw.EditContact&quot;/&gt;
+      &lt;class name=&quot;sundaycw.DeleteContact&quot;/&gt;
+      &lt;class name=&quot;sundaycw.MergeContact&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">doDeleteContact</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">doDeleteLead</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">doEditContact</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">doEditLead</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">doMergeContact</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">doMergeLead</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">doCreateContact</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">doCreateLead</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'doMergeLead')
+data.setCell(0, 2, 'sundaycw.MergeLead')
+data.setCell(0, 3, 39);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'doEditLead')
+data.setCell(1, 2, 'sundaycw.EditLead')
+data.setCell(1, 3, 24);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'doCreateLead')
+data.setCell(2, 2, 'sundaycw.CreateLead')
+data.setCell(2, 3, 11);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'doCreateLead')
+data.setCell(3, 2, 'sundaycw.CreateLead')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'doDeleteLead')
+data.setCell(4, 2, 'sundaycw.DeleteLead')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'doCreateContact')
+data.setCell(5, 2, 'sundaycw.CreateContact')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'doEditContact')
+data.setCell(6, 2, 'sundaycw.EditContact')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'doMergeContact')
+data.setCell(7, 2, 'sundaycw.MergeContact')
+data.setCell(7, 3, 3);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'doDeleteContact')
+data.setCell(8, 2, 'sundaycw.DeleteContact')
+data.setCell(8, 3, 2);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 91 ms</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.EditLead</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.CreateLead</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.MergeLead</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginCrmLeadTab</span>
+                <span class="method-start">65 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.EditLead</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginCrmLeadTab</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.MergeLead</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doMergeLead</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.EditLead</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doEditLead</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.CreateLead</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginCrmLeadTab</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doCreateLead(Username1, Comsddkscn1, Company1, Firstname1, Lastname1)</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">VerifyCreateLead</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginCrmLeadTab</span>
+                <span class="method-start">95 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doCreateLead(Username2, Password2, Company2, Firstname2, Lastname2)</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.EditLead</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">VerifyEditLead</span>
+                <span class="method-start">97 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.CreateLead</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">VerifyCreateLead</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">103 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.DeleteLead</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser(chrome)</span>
+                <span class="method-start">106 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.MergeLead</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">VerifyMergeLead</span>
+                <span class="method-start">108 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">110 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.DeleteLead</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginCrmLeadTab</span>
+                <span class="method-start">111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doDeleteLead</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">VerifyDeleteLead</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">121 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.CreateContact</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser(firefox)</span>
+                <span class="method-start">779 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.EditContact</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser(firefox)</span>
+                <span class="method-start">781 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.CreateContact</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginCrmLeadTab</span>
+                <span class="method-start">781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doCreateContact</span>
+                <span class="method-start">782 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.MergeContact</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser(firefox)</span>
+                <span class="method-start">783 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.EditContact</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginCrmLeadTab</span>
+                <span class="method-start">787 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.CreateContact</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">VerifyCreateContact</span>
+                <span class="method-start">789 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">790 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.EditContact</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doEditContact</span>
+                <span class="method-start">791 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.MergeContact</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginCrmLeadTab</span>
+                <span class="method-start">794 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doMergeContact</span>
+                <span class="method-start">795 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.EditContact</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">VerifyEditContact</span>
+                <span class="method-start">796 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">798 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.DeleteContact</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchBrowser(firefox)</span>
+                <span class="method-start">800 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.MergeContact</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">VerifyMergeContact</span>
+                <span class="method-start">801 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">801 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">sundaycw.DeleteContact</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LoginCrmLeadTab</span>
+                <span class="method-start">802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">doDeleteContact</span>
+                <span class="method-start">803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">VerifyDeleteContact</span>
+                <span class="method-start">808 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">809 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

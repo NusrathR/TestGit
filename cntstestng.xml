@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Contacts">
+  <test name="Test">
+    <classes>
+      <class name="contacts_testng.CreateContact"/>
+      <class name="contacts_testng.FindContact"/>
+    <class name="contacts_testng.DeleteContact"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Contacts -->

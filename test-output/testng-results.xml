@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="862" started-at="2016-04-23T08:01:40Z" finished-at="2016-04-23T08:01:41Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="DeleteLead.doDeleteLead()[pri:0, instance:sundaycw.DeleteLead@163425a]" name="doDeleteLead" class="sundaycw.DeleteLead"/>
+        <method signature="EditLead.doEditLead()[pri:0, instance:sundaycw.EditLead@13afe78]" name="doEditLead" class="sundaycw.EditLead"/>
+        <method signature="MergeLead.doMergeLead()[pri:0, instance:sundaycw.MergeLead@80ec60]" name="doMergeLead" class="sundaycw.MergeLead"/>
+        <method signature="DeleteContact.doDeleteContact()[pri:0, instance:sundaycw.DeleteContact@1f256fa]" name="doDeleteContact" class="sundaycw.DeleteContact"/>
+        <method signature="MergeContact.doMergeContact()[pri:0, instance:sundaycw.MergeContact@f71333]" name="doMergeContact" class="sundaycw.MergeContact"/>
+        <method signature="EditContact.doEditContact()[pri:0, instance:sundaycw.EditContact@154909b]" name="doEditContact" class="sundaycw.EditContact"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="CreateLead.doCreateLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sundaycw.CreateLead@d64342]" name="doCreateLead" class="sundaycw.CreateLead"/>
+        <method signature="CreateContact.doCreateContact()[pri:0, instance:sundaycw.CreateContact@108b2d7]" name="doCreateContact" class="sundaycw.CreateContact"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="703" started-at="2016-04-23T08:01:40Z" finished-at="2016-04-23T08:01:41Z">
+      <class name="sundaycw.EditLead">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:sundaycw.EditLead@13afe78]" name="LaunchBrowser" is-config="true" duration-ms="47" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LoginCrmLeadTab()[pri:0, instance:sundaycw.EditLead@13afe78]" name="LoginCrmLeadTab" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCrmLeadTab -->
+        <test-method status="PASS" signature="doEditLead()[pri:0, instance:sundaycw.EditLead@13afe78]" name="doEditLead" duration-ms="24" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doEditLead -->
+        <test-method status="PASS" signature="VerifyEditLead()[pri:0, instance:sundaycw.EditLead@13afe78]" name="VerifyEditLead" is-config="true" duration-ms="0" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditLead -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:sundaycw.EditLead@13afe78]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- sundaycw.EditLead -->
+      <class name="sundaycw.DeleteLead">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:sundaycw.DeleteLead@163425a]" name="LaunchBrowser" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LoginCrmLeadTab()[pri:0, instance:sundaycw.DeleteLead@163425a]" name="LoginCrmLeadTab" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCrmLeadTab -->
+        <test-method status="PASS" signature="doDeleteLead()[pri:0, instance:sundaycw.DeleteLead@163425a]" name="doDeleteLead" duration-ms="3" depends-on-groups="Smoke" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doDeleteLead -->
+        <test-method status="PASS" signature="VerifyDeleteLead()[pri:0, instance:sundaycw.DeleteLead@163425a]" name="VerifyDeleteLead" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteLead -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:sundaycw.DeleteLead@163425a]" name="CloseBrowser" is-config="true" duration-ms="3" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- sundaycw.DeleteLead -->
+      <class name="sundaycw.MergeLead">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:sundaycw.MergeLead@80ec60]" name="LaunchBrowser" is-config="true" duration-ms="55" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LoginCrmLeadTab()[pri:0, instance:sundaycw.MergeLead@80ec60]" name="LoginCrmLeadTab" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCrmLeadTab -->
+        <test-method status="PASS" signature="doMergeLead()[pri:0, instance:sundaycw.MergeLead@80ec60]" name="doMergeLead" duration-ms="39" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doMergeLead -->
+        <test-method status="PASS" signature="VerifyMergeLead()[pri:0, instance:sundaycw.MergeLead@80ec60]" name="VerifyMergeLead" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMergeLead -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:sundaycw.MergeLead@80ec60]" name="CloseBrowser" is-config="true" duration-ms="2" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- sundaycw.MergeLead -->
+      <class name="sundaycw.CreateLead">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:sundaycw.CreateLead@d64342]" name="LaunchBrowser" is-config="true" duration-ms="57" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LoginCrmLeadTab()[pri:0, instance:sundaycw.CreateLead@d64342]" name="LoginCrmLeadTab" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCrmLeadTab -->
+        <test-method status="PASS" signature="doCreateLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sundaycw.CreateLead@d64342]" name="doCreateLead" duration-ms="11" started-at="2016-04-23T13:31:41Z" data-provider="Count" finished-at="2016-04-23T13:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Comsddkscn1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Company1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Firstname1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lastname1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doCreateLead -->
+        <test-method status="PASS" signature="VerifyCreateLead()[pri:0, instance:sundaycw.CreateLead@d64342]" name="VerifyCreateLead" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreateLead -->
+        <test-method status="PASS" signature="LoginCrmLeadTab()[pri:0, instance:sundaycw.CreateLead@d64342]" name="LoginCrmLeadTab" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCrmLeadTab -->
+        <test-method status="PASS" signature="doCreateLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sundaycw.CreateLead@d64342]" name="doCreateLead" duration-ms="3" started-at="2016-04-23T13:31:41Z" data-provider="Count" finished-at="2016-04-23T13:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Company2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Firstname2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lastname2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doCreateLead -->
+        <test-method status="PASS" signature="VerifyCreateLead()[pri:0, instance:sundaycw.CreateLead@d64342]" name="VerifyCreateLead" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreateLead -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:sundaycw.CreateLead@d64342]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- sundaycw.CreateLead -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="39" started-at="2016-04-23T08:01:41Z" finished-at="2016-04-23T08:01:41Z">
+      <class name="sundaycw.EditContact">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:sundaycw.EditContact@154909b]" name="LaunchBrowser" is-config="true" duration-ms="2" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LoginCrmLeadTab()[pri:0, instance:sundaycw.EditContact@154909b]" name="LoginCrmLeadTab" is-config="true" duration-ms="4" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCrmLeadTab -->
+        <test-method status="PASS" signature="doEditContact()[pri:0, instance:sundaycw.EditContact@154909b]" name="doEditContact" duration-ms="3" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doEditContact -->
+        <test-method status="PASS" signature="VerifyEditContact()[pri:0, instance:sundaycw.EditContact@154909b]" name="VerifyEditContact" is-config="true" duration-ms="2" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditContact -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:sundaycw.EditContact@154909b]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- sundaycw.EditContact -->
+      <class name="sundaycw.CreateContact">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:sundaycw.CreateContact@108b2d7]" name="LaunchBrowser" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LoginCrmLeadTab()[pri:0, instance:sundaycw.CreateContact@108b2d7]" name="LoginCrmLeadTab" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCrmLeadTab -->
+        <test-method status="PASS" signature="doCreateContact()[pri:0, instance:sundaycw.CreateContact@108b2d7]" name="doCreateContact" duration-ms="3" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doCreateContact -->
+        <test-method status="PASS" signature="VerifyCreateContact()[pri:0, instance:sundaycw.CreateContact@108b2d7]" name="VerifyCreateContact" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreateContact -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:sundaycw.CreateContact@108b2d7]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- sundaycw.CreateContact -->
+      <class name="sundaycw.MergeContact">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:sundaycw.MergeContact@f71333]" name="LaunchBrowser" is-config="true" duration-ms="10" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LoginCrmLeadTab()[pri:0, instance:sundaycw.MergeContact@f71333]" name="LoginCrmLeadTab" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCrmLeadTab -->
+        <test-method status="PASS" signature="doMergeContact()[pri:0, instance:sundaycw.MergeContact@f71333]" name="doMergeContact" duration-ms="3" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doMergeContact -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:sundaycw.MergeContact@f71333]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="VerifyMergeContact()[pri:0, instance:sundaycw.MergeContact@f71333]" name="VerifyMergeContact" is-config="true" duration-ms="0" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMergeContact -->
+      </class> <!-- sundaycw.MergeContact -->
+      <class name="sundaycw.DeleteContact">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:sundaycw.DeleteContact@1f256fa]" name="LaunchBrowser" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="LoginCrmLeadTab()[pri:0, instance:sundaycw.DeleteContact@1f256fa]" name="LoginCrmLeadTab" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCrmLeadTab -->
+        <test-method status="PASS" signature="doDeleteContact()[pri:0, instance:sundaycw.DeleteContact@1f256fa]" name="doDeleteContact" duration-ms="2" depends-on-groups="Smoke" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doDeleteContact -->
+        <test-method status="PASS" signature="VerifyDeleteContact()[pri:0, instance:sundaycw.DeleteContact@1f256fa]" name="VerifyDeleteContact" is-config="true" duration-ms="1" depends-on-groups="Smoke" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteContact -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:sundaycw.DeleteContact@1f256fa]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2016-04-23T13:31:41Z" finished-at="2016-04-23T13:31:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- sundaycw.DeleteContact -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

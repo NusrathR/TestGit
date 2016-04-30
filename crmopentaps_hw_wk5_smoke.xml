@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "classes" thread-count = "2"> 
+<groups>
+<run>
+<include name="Smoke"></include>
+</run>
+</groups>
+  <test name="Test">
+  <parameter name = "browser" value = "chrome"></parameter>
+  
+    <classes>   
+      <class name="contacts_testng.CreateLead"/>
+      <class name="contacts_testng.EditLead"/>     
+      <class name="contacts_testng.MergeLead"/>
+      <class name="contacts_testng.DeleteLead"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  <test name = "Test2">
+  <parameter name = "browser" value = "firefox"></parameter>
+  <classes>
+  <class name="contacts_testng.CreateContact"/>
+   <class name="contacts_testng.DeleteContact"/>
+    <class name="contacts_testng.MergeContact"/>
+      <class name="contacts_testng.EditContact"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
